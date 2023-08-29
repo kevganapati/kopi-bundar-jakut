@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kopi Bundar</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&family=Roboto:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    
+    <link rel="stylesheet" href="style.css" />
+    <!-- AoS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  </head>
+  <body>
+    <!-- navbar-start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Kopi<span>Bundar</span></a>
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang</a>
+        <a href="#Menu">Menu</a>
+        <a href="#products">Produk</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+
+      
+      <!-- Search form start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="Search here...">
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search form end -->
+      
+      <!-- Shopping cart start-->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="../Desktop/img/product.jpeg" alt="Product 1">
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="../Desktop/img/product.jpeg" alt="Product 1">
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="../Desktop/img/product.jpeg" alt="Product 1">
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="../Desktop/img/product.jpeg" alt="Product 1">
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+      <!-- Shopping cart end-->
+      
+    </nav>
+    <!-- navbar-end -->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Mari Nikmati Kopi <span>Bundar</span></h1>
+        <p>Tiada Kopi Senikmat Kopi Bundar,Nikmatnya Tiada Tara</p>
+        <a href="https://janji-jiwa.vercel.app/#menu" class="cta">Beli Sekarang,Buruan!</a>
+      </main>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- About Section Start -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+      <div class="row" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+        <div class="about-img">
+          <img
+            src="../Desktop/img/dani-ZLqxSzvVr7I-unsplash.jpeg"
+            alt="Tentang Kami"
+          />
+        </div>
+        <div class="content">
+          <h3>Kenapa harus memilih kopi kami?</h3>
+          <p>
+            Karena kopi kami terbuat dari ekstrak biji kopi terbaik yang diolah
+            secara higienis dengan teknologi yang canggih,yang membuat anda
+            harus memilih kopi kami. Dengan biji kopi yang diekstrak dengan
+            teknologi yang canggih dan higienis anda tidak perlu meragukan kopi
+            kami. Cita rasa yang enak menambah nilai plus bagi kopi kami
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Menu Section Start -->
+    <section id="Menu" class="menu">
+      <h2><span>Menu</span> Kami</h2>
+      <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+        officiis corporis quas dolorem. Quas accusantium culpa architecto
+        voluptate doloremque aut?
+      </p>
+      <div class="row" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+        <div class="menu-card">
+          <img
+            src="../Desktop/img/matt-hoffman-IE-gdqEg45M-unsplash.jpeg"
+            alt="Espresso"
+          />
+          <h3 class="menu-card-title">Espresso</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+        <div class="menu-card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+          <img
+            src="../Desktop/img/matt-hoffman-IE-gdqEg45M-unsplash.jpeg"
+            alt="Espresso"
+          />
+          <h3 class="menu-card-title">Espresso</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+        <div class="menu-card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+          <img
+            src="../Desktop/img/matt-hoffman-IE-gdqEg45M-unsplash.jpeg"
+            alt="Espresso"
+          />
+          <h3 class="menu-card-title">Espresso</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+        <div class="menu-card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="">
+          <img
+            src="../Desktop/img/matt-hoffman-IE-gdqEg45M-unsplash.jpeg"
+            alt="Espresso"
+          />
+          <h3 class="menu-card-title">Espresso</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section End -->
+  
+    <!-- Product Section Start -->
+    <section class="products" id="products">
+      <h2> <span>Produk Unggulan</span> Kami</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sed alias voluptate facere in. Ab.</p>
+      <div class="row">
+        <div class="product-card" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="200">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="../Desktop/img/product.jpeg" alt="Product 1">
+          </div>
+          <div class="product-content">
+            <h3> Coffe Beans 1</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+          </div>
+        </div>
+        <div class="product-card" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="300">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="../Desktop/img/product.jpeg" alt="Product 1">
+          </div>
+          <div class="product-content">
+            <h3> Coffe Beans 2</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+          </div>
+        </div>
+        <div class="product-card" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="400">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="../Desktop/img/product.jpeg" alt="Product 1">
+          </div>
+          <div class="product-content">
+            <h3> Coffe Beans 3</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+          </div>
+        </div>
+        <div class="product-card" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="500">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="../Desktop/img/product.jpeg" alt="Product 1">
+          </div>
+          <div class="product-content">
+            <h3> Coffe Beans 4</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+      <p data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">Silahkan kontak kami dan datang ke outlet kami :)</p>
+      <div class="row" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d8275.901126693856!2d106.89897425233802!3d-6.117964953504814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMDYnNDYuNCJTIDEwNsKwNTMnNTAuNCJF!5e0!3m2!1sid!2sid!4v1692926361285!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="maps"
+        ></iframe>
+      </div>
+      <div class="massage" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+        <p class="info">Jalan Sindang Lorong M No 287</p>
+        <p class="info">Nomor Telepon: 082243323456</p>
+        <p class="info">Kevin Ganapati Alrasyid</p>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="socials">
+        <a href="https://instagram.com/kevganapati"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+      <div class="credits">
+        <p>Made by <a href="">kevinganapati</a> | &copy; 2023</p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Modal Box Item Detail Start -->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="../Desktop/img/product.jpeg" alt="Product 1">
+          <div class="product-content">
+            <h3>Product 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus provident nihil, est enim eos dolores. Minima pariatur voluptatibus non omnis praesentium accusamus neque excepturi cumque.</p>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+            <a href="#" class="sc"><i data-feather="shopping-cart"></i> <span>add to cart</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Modal Box Item Detail End -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="script.js"></script>
+
+    <!-- AoS script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+  </body>
+</html>
